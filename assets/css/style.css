@@ -103,6 +103,7 @@ nav a{
     font-size: 21.5px;
     background: #4aaaa5;
     padding: 10px;
+    text-align: center;
 }
 
 nav >.name-header a {
@@ -127,9 +128,7 @@ nav a:hover {
 
 /* flex styles below */
 
-@media screen and (min-width: 768px) {
-
-    nav ul{
+    /* nav ul{
         display: flex;
     }
 
@@ -146,19 +145,16 @@ nav a:hover {
         text-align: center;
         justify-content: center;
         align-items: center;
-        /* right: -2px; */
-        /* top: 25%; */
-        /* width: 2px; */
-        /* height: 50%; */
+       
     }
 
         nav {
           display: flex;
-          justify-content: space-between
-        }
+          justify-content: space-between;
+        } */
 
 
-}
+
 
 
 
@@ -253,3 +249,63 @@ button {
   }
 
 
+
+
+
+
+  /* MEDIA QUIERIES */
+
+  @media screen and (max-width: 768px) {
+      .main-content-wrapper {
+        width: 90%;
+        margin: auto;
+        background-color: #ffffff;
+        height: 500px;
+        /* padding: 20px 20px 20px 20px; */
+        margin-top: 40px;
+        /* padding: 50px 50px 50px 50px; */
+      }
+
+      .my-photo {
+          width: 170px;
+      }
+
+
+
+  }
+
+  @media screen and (max-width: 640px) {
+      
+}
+
+
+
+@media screen and (min-width: 640px) {
+    nav ul{
+        display: flex;
+    }
+
+    nav li{
+        flex: 1;
+    }
+
+    nav li:not(:first-child):before {
+        content: ' | ';
+        font-size: 26px;
+        position: absolute;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        /* right: -2px; */
+        /* top: 25%; */
+        /* width: 2px; */
+        /* height: 50%; */
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between
+    }
+}
