@@ -168,47 +168,38 @@ nav a:hover {
 
 
 /* Contact page field formatting */
-form {
-    padding: 1em;
-    width: 300px;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
 
-} 
-    
-form div + div {
-    margin-top: 1em;
-  }
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
 
-button {
+input[type=submit] {
     background-color: #4aaaa5;
     color: #ffffff;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-size: 12pt;
+    padding: 12px 20px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
 
-#name {
-    padding-right: 70%; 
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
- }
+.col-1 {
+    margin-top: 6px;
+}
 
- #mail {
-    padding-right: 780px; 
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
- }
-
-
-#msg {
-   padding-right: 780px; 
-   padding-left: 5px;
-   padding-bottom: 75px;
-   padding-top: 5px;
+.row {
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 
 
@@ -314,7 +305,7 @@ button {
   @media screen and (max-width: 640px) {
 
     .main-content-wrapper {
-        width: 95%;
+        width: 90%;
         padding-bottom: 500px;
     }
 
@@ -334,8 +325,6 @@ button {
         padding-left: 20px;
         padding-right: 20px;
     }
-
-   
     
 }
 

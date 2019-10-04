@@ -36,28 +36,39 @@
         
             <h2>Contact</h2>
                 
-                <form = action="/my-handling-form-page" method="POST">
+                <form action="action_page.php">
 
-                    <div class="form-width">
-                        <label for="name">Name</label><br>
-                        <input type="text" id="name" name="user_name" placeholder="John Smith">
+                    <div class="row">
+                        <div class="col-1">
+                            <label for="firstName">First Name</label>
+                        </div>
+                        <div class="col-1">
+                            <input type="text" id="firstName" name="firstNameField" placeholder="Your first and last name...">
+                        </div>
                     </div>
 
-                    <div>
-                        <label for="mail">Email</label><br>
-                        <input type="email" id="mail" name="user_mail" placeholder="example@gmail.com">
+                    <div class="row">
+                        <div class="col-1">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-1">
+                            <input type="text" id="email" name="email-address" placeholder="Your email address...">
+                        </div>
                     </div>
 
-                    <div>
-                        <label for="msg">Message</label><br>
-                        <textarea id="msg" name="user_message" placeholder="Message here"></textarea>
+                    <div class="row">
+                        <div class="col-1">
+                            <label for="message">Message</label>
+                        </div>
+                        <div class="col-1">
+                            <textarea id="message" name="message" placeholder="Your message..." style="height:150px"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit">
                     </div>
 
-                    <div class="button">
-                        <button type="submit">Submit</button>
-                    </div>
-
-                </form> 
+                </form>
 
         </div>
 
