@@ -15,6 +15,7 @@ html,body
 
 header {
     background-color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 header:after {
@@ -37,6 +38,7 @@ h2 {
     color:#4aaaa5;
     padding-left: 20px;
     padding-top: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h2:after {
@@ -58,6 +60,7 @@ body {
     min-height: 400px;
     margin-bottom: 100px;
     clear: both;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 footer:before{
@@ -249,8 +252,6 @@ input[type=submit] {
   }
 
 
-
-
   html,body
   {
       width: 100%;
@@ -283,6 +284,11 @@ input[type=submit] {
         padding-right: 25px;
     }
 
+    .portfolio {
+        height: 82%;
+        margin-bottom: 90px;
+    }
+
 }
 
 
@@ -309,6 +315,11 @@ input[type=submit] {
       .contact {
           padding-bottom: 50px;
       }
+
+      .portfolio {
+        height: 142%;
+        margin-bottom: 90px;
+    }
 
   }
 
@@ -338,7 +349,8 @@ input[type=submit] {
     }
 
     .index {
-        padding-bottom: 500px;
+        height: 105%;
+        margin-bottom: 90px;
     }
 
     .contact {
@@ -349,6 +361,10 @@ input[type=submit] {
     .portfolio {
         height: 142%;
         margin-bottom: 90px;
+    }
+
+    header {
+        position: static;
     }
     
 }
