@@ -28,9 +28,9 @@ header:after {
     margin: auto;
     background-color: #ffffff;
     height: 500px;
-    /* padding: 20px 20px 20px 20px; */
+   
     margin-top: 40px;
-    /* padding: 50px 50px 50px 50px; */
+    padding-right: 20px;
 }
 
 h2 {
@@ -279,6 +279,10 @@ input[type=submit] {
         width: 170px;
     }
 
+    .index {
+        padding-right: 25px;
+    }
+
 }
 
 
@@ -298,6 +302,14 @@ input[type=submit] {
           width: 170px;
       }
 
+      .index {
+          padding-right: 25px;
+      }
+
+      .contact {
+          padding-bottom: 50px;
+      }
+
   }
 
 
@@ -306,7 +318,6 @@ input[type=submit] {
 
     .main-content-wrapper {
         width: 90%;
-        padding-bottom: 500px;
     }
 
     .picture-container {
@@ -324,6 +335,20 @@ input[type=submit] {
     .indexParagraph {
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .index {
+        padding-bottom: 500px;
+    }
+
+    .contact {
+        height: 58%;
+        margin-bottom: 90px;
+    }
+
+    .portfolio {
+        height: 142%;
+        margin-bottom: 90px;
     }
     
 }
